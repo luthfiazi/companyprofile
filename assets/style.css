@@ -106,19 +106,72 @@ p {
     }
 }
 
+
+
+.our-client {
+    border: 2px solid #E6EBEB;
+    border-radius: 20px;
+    margin: 20px 40px;
+}
+
+img {
+    height: 110px;
+    padding: 20px 22px;
+}
+
+@media (max-width: 1000px) {
+    .client {
+        width: 100%;
+    }
+
+    img {
+        height: 90px;
+        padding-right: 50px;
+        padding-left: 22px;
+    }
+}
+
+@media (max-width: 670px) {
+    .client {
+        width: 100%;
+    }
+
+    img {
+        height: 100px;
+        padding: 10px 23px; 
+    }
+}
+
+@media (max-width: 400px) {
+    .client {
+        width: 100%;
+    }
+
+    img {
+        height: 90px;
+        padding: 10px 18px;
+
+    }
+}
+
+
 /*Our Services End*/
 /* Tambahkan CSS untuk tag <img> yang berada didalam <footer>*/
 footer img{
-    width: 30px;
-  }
-  
-  /* Tambahkan CSS untuk tag <p> yang berada didalam <footer> */
-  footer p {
-    color:#b3aeb5;
-    font-size: 15px;
-  }
-  
-  /* Tambahkan CSS untuk tag <footer> */
-  footer {
-    padding-top: 10px;
-  }
+  width: 30px;
+}
+
+/* Tambahkan CSS untuk tag <p> yang berada didalam <footer> */
+footer p {
+  color:#b3aeb5;
+  font-size: 15px;
+}
+
+/* Tambahkan CSS untuk tag <footer> */
+footer {
+  padding-top: 10px;
+}
+
+h2 {
+  padding-left: 40px;
+}
