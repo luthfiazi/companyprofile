@@ -50,14 +50,14 @@ p {
 }
 
 .section-portfolio{
-    min-height: 600px;
+    min-height: 400px;
     background-color: white;
 }
 
 .img-portfolio{
-    width: 250px;
-    height: 250px;
-    margin-right: 15px;
+    width: 210px;
+    height: 210px;
+    margin-right: 10px;
 }
 /*Our Services*/
 .box-service {
@@ -160,7 +160,8 @@ img {
 /*Our Services End*/
 /* Tambahkan CSS untuk tag <img> yang berada didalam <footer>*/
 footer img{
-  width: 30px;
+  width: 40px !important;
+  height: 40px !important;
 }
 
 /* Tambahkan CSS untuk tag <p> yang berada didalam <footer> */
