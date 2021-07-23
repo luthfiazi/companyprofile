@@ -59,3 +59,20 @@ p {
     height: 250px;
     margin-right: 15px;
 }
+
+
+/* Tambahkan CSS untuk tag <img> yang berada didalam <footer>*/
+footer img{
+    width: 30px;
+  }
+  
+  /* Tambahkan CSS untuk tag <p> yang berada didalam <footer> */
+  footer p {
+    color:#b3aeb5;
+    font-size: 15px;
+  }
+  
+  /* Tambahkan CSS untuk tag <footer> */
+  footer {
+    padding-top: 10px;
+  }
